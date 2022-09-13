@@ -1,8 +1,14 @@
-# rais_tutorial
-
-ADD Commands to download dataset from Dropbox here
+# Rais Hands-on Tutorial on Sleep Staging
 
 
+First of all, you will need Python in your machine and I higly recommend you to install an enviroment package like Conda.
+
+- Please visit [this page to learn how to install conda in your machine](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+
+A good summary of the most important commands to learn with Codna are in its [cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf).
+
+
+## Installing the basic env:
 # tutorial
 conda create --name tutorial python=3.8
 conda install -c apple tensorflow-deps
@@ -13,7 +19,7 @@ conda install -c conda-forge jupyter_contrib_nbextensions
 conda install seaborn
 
 
-# tutorial-tsfresh with tsfresh 
+# tutorial-tsfresh with tsfresh
 conda create --clone tutorial --name tutorial-tsfresh
 conda activate tutorial-tsfresh
 conda install tsfresh
@@ -32,4 +38,5 @@ conda install -c apple tensorflow-deps
 pip install tensorflow-macos
 
 
+### About the structure of this tutorial:
 
