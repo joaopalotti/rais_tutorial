@@ -34,15 +34,17 @@ conda install -y statsmodels==0.12.1;
 
 - Adding Pycaret to your basic tutorial env
 ```bash
-conda create --clone tutorial --name tutorial-tsfresh
-pip install --pre pycaret
+conda create --clone tutorial-tsfresh --name tutorial-pycaret;
+conda activate tutorial-pycaret;
+pip install --pre pycaret;
 ```
 
 - Adding Keras to your basic tutorial env
 ```bash
-conda create --clone tutorial --name tutorial-keras
-conda install -c apple tensorflow-deps                # if you are using a mac
-pip install tensorflow-macos
+conda create --clone tutorial --name tutorial-keras;
+conda activate tutorial-keras;
+conda install -c apple tensorflow-deps;                # if you are using a mac;
+pip install tensorflow-macos;
 ```
 
 
